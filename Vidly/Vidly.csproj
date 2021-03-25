@@ -211,9 +211,26 @@
     <Compile Include="Migrations\202103220837045_MakeBirthDateNullableInCustomers.designer.cs">
       <DependentUpon>202103220837045_MakeBirthDateNullableInCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103250149303_AddDBSetMoviesToDBContext.cs" />
+    <Compile Include="Migrations\202103250149303_AddDBSetMoviesToDBContext.designer.cs">
+      <DependentUpon>202103250149303_AddDBSetMoviesToDBContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103250203176_UpdateMovieWithAdditionalProps.cs" />
+    <Compile Include="Migrations\202103250203176_UpdateMovieWithAdditionalProps.designer.cs">
+      <DependentUpon>202103250203176_UpdateMovieWithAdditionalProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103250225219_AddGenre.cs" />
+    <Compile Include="Migrations\202103250225219_AddGenre.designer.cs">
+      <DependentUpon>202103250225219_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103250231485_PopulateGenres.cs" />
+    <Compile Include="Migrations\202103250231485_PopulateGenres.designer.cs">
+      <DependentUpon>202103250231485_PopulateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -285,6 +302,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -329,6 +347,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103220837045_MakeBirthDateNullableInCustomers.resx">
       <DependentUpon>202103220837045_MakeBirthDateNullableInCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103250149303_AddDBSetMoviesToDBContext.resx">
+      <DependentUpon>202103250149303_AddDBSetMoviesToDBContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103250203176_UpdateMovieWithAdditionalProps.resx">
+      <DependentUpon>202103250203176_UpdateMovieWithAdditionalProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103250225219_AddGenre.resx">
+      <DependentUpon>202103250225219_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103250231485_PopulateGenres.resx">
+      <DependentUpon>202103250231485_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
