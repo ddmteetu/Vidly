@@ -23,5 +23,7 @@ namespace Vidly.Dtos
 
         //`Foreign Key` to the `Genre` Table
         public byte GenreId { get; set; }
+
+        public GenreDto Genre { get; set; }
     }
 }
