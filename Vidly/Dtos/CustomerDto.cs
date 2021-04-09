@@ -22,5 +22,7 @@ namespace Vidly.Dtos
        
         //`Foreign Key` to the `MembershipType` Table
         public byte MembershipTypeId { get; set; }
+
+        public MembershipTypeDto MembershipType { get; set; }
     }
 }
